@@ -59,59 +59,59 @@
 
 7. Creamos una carpeta para levantar nuestro servidor apache, en este caso es la carpeta llamaca apache
 
-<img src="img/10.JPG" alt="Imagen">
+<img src="img/10.jpg" alt="Imagen">
 
 8. Dentro de esa carpeta creamos una carpeta para añadir neustros archivos php en este caso son dos mariadb.php y postgre.php
 
-<img src="img/111.JPG" alt="Imagen">
+<img src="img/111.jpg" alt="Imagen">
 
 9. Posteriormente movemos nuestros archivos a la carpeta creada anteriormente "sites"
 
-<img src="img/12.JPG" alt="Imagen">
+<img src="img/12.jpg" alt="Imagen">
 
 10. Abrimos la carpeta apache en el editor de código de visual studio.
 
-<img src="img/13.JPG" alt="Imagen">
+<img src="img/13.jpg" alt="Imagen">
 
 11. Creamos un nuevo archivo Dockerfile para crear una nueva imagen
 
-<img src="img/14.JPG" alt="Imagen">
+<img src="img/14.jpg" alt="Imagen">
 
 12. Abrimos la terminal de windows y ejecutamos el siguiente comando docker pull php:7.4-apache
 
-<img src="img/15.JPG" alt="Imagen">
+<img src="img/15.jpg" alt="Imagen">
 
 13. Dentro del archivo Dockerfile escribimos las siguientes lineas de código
 
-<img src="img/16.JPG" alt="Imagen">
+<img src="img/16.jpg" alt="Imagen">
 
 14. Posteriormente ejecutamos el siguiente comando en la carpeta de apache "docker build -t pruebab2 ." para construir la imagen
 
-<img src="img/17.JPG" alt="Imagen">
+<img src="img/17.jpg" alt="Imagen">
 
 15. Finalmente ejecutamos el siguiente comando para la configuración final "docker run -i --rm  --name pruebab2 -p 80:80 pruebab2"
 
-<img src="img/18.JPG" alt="Imagen">
+<img src="img/18.jpg" alt="Imagen">
 
 16. Ahora ya podemos levantar el siguiente comando para levantar nuestro servidor "docker run -i --rm --name pruebab2 -p 80:80 pruebab2"
 
-<img src="img/19.JPG" alt="Imagen">
+<img src="img/19.jpg" alt="Imagen">
 
 17. Verificamos los resultados en el navegador de los archivos php mariadb.php y postgre.php
 
 ## MariaDB
 
-<img src="img/20.JPG" alt="Imagen">
+<img src="img/20.jpg" alt="Imagen">
 
 ## Postrgree
 
-<img src="img/21.JPG" alt="Imagen">
+<img src="img/21.jpg" alt="Imagen">
 
 ## Hamachi
 
 18. Para la conexión de la base de datos de mariadb y postgree en otro equipo usamos la aplicación de hamachi para crear una vpn y tener conexion entre la máquina cliente, servidor apache y SGBD.
 
-<img src="img/22.JPG" alt="Imagen">
+<img src="img/22.jpg" alt="Imagen">
 
 
 
