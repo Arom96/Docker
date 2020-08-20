@@ -20,14 +20,14 @@
 
 2. Luego abrimos una terminal para configurar nuestras bases de datos y conectarnos a las bases de datos.
 
-     *docker run -d --rm --name pruebadb -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mariadb
-     *docker run -d --rm --name pruebasr -e POSTGRES_PASSWORD=root -p 5432:5432 postgres
+     * docker run -d --rm --name pruebadb -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mariadb
+     * docker run -d --rm --name pruebasr -e POSTGRES_PASSWORD=root -p 5432:5432 postgres
 
 3. Verificamos que hayamos creado nuestros contenedores con el siguiente comando 
 
-     *docker ps
+     * docker ps
 
-<img src="img/3.JPG" alt="Imagen" width="500" height="600">
+<img src="img/3.JPG" alt="Imagen">
 
 
 
